@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+
+}
+
+.wrapper {
+    background: #F2F2F2 url("images/depan2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+}
+
+.satu {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    position: relative;
+    height: 50px;
+    top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navitems {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+
+.navitems li{
+    list-style: none;
+    margin-right: 70px;
+}
+
+.navitems li:nth-last-of-type(1) {
+    margin:0;
+    width: 185px;
+}
+
+.navitems li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.cekidot img{
+    width: 100%
+}
+
+
+.mengkost{
+    margin-top:118px;
+    width: 43%;
+}
+
+.mengkost h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.mengkost p{
+    font-weight:100;
+    font-size: 20px;
+}
+
+.mengmap {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gambar {
+    filter: drop-shadow(0px 62px 54px rgba(0, 0, 0, 0.3));
+    border-radius: 0px 57px 0px 0px;
+}
+
+.huehue {
+    color: black;
+    width: 40%;
+}
+
+.huehue h1{
+    font-weight: 800;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.huehue p{
+    width: 60%;
+}
+
+.cekmaps img{
+    margin-top: 45px;
+    margin-left: 18%;
+    width: 28%
+}
