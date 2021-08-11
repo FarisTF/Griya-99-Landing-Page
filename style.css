@@ -56,6 +56,10 @@ body {
     width: 185px;
 }
 
+.navitems li:nth-last-of-type(1):hover {
+    transform:translateY(0);
+}
+
 .navitems li a {
     text-decoration: none;
     color: #FFFFFF;
@@ -67,7 +71,7 @@ body {
 }
 
 .cekidot img:hover{
-    transform: scale(103%);
+    transform: scale(105%);
 }
 
 .mengkost{
