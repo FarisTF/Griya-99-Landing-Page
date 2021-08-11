@@ -44,6 +44,11 @@ body {
 .navitems li{
     list-style: none;
     margin-right: 70px;
+    transition: 300ms;
+}
+
+.navitems li:hover{
+    transform:translateY(-3px);
 }
 
 .navitems li:nth-last-of-type(1) {
@@ -57,9 +62,13 @@ body {
 }
 
 .cekidot img{
-    width: 100%
+    width: 100%;
+    transition: 700ms;
 }
 
+.cekidot img:hover{
+    transform: scale(103%);
+}
 
 .mengkost{
     margin-top:118px;
@@ -118,9 +127,13 @@ body {
 .cekmaps img{
     margin-top: 45px;
     margin-left: 18%;
-    width: 28%
+    width: 28%;
+    transition:500ms;
 }
 
+.cekmaps img:hover{
+    transform: scale(103%) translateY(-3px);
+}
 .mengharga {
     background-color:#17a538 ;
     height: 750px;
