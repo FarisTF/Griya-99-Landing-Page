@@ -77,7 +77,8 @@ body {
 }
 
 .mengmap {
-    margin-top: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -85,7 +86,18 @@ body {
 
 .gambar {
     filter: drop-shadow(0px 62px 54px rgba(0, 0, 0, 0.3));
-    border-radius: 0px 57px 0px 0px;
+}
+
+.gambar img{
+    border-radius: 0px 57px 57px 0px;
+    width: 100%;
+    display: block;
+    margin-left: -5%;
+    transition: 800ms;
+}
+
+.gambar img:hover{
+    transform: scale(102%) translateX(10px);
 }
 
 .huehue {
@@ -107,4 +119,57 @@ body {
     margin-top: 45px;
     margin-left: 18%;
     width: 28%
+}
+
+.mengharga {
+    background-color:#17a538 ;
+    height: 750px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.harga {
+    flex: 1;
+    margin-left:50px;
+}
+
+.lorong {
+    flex:1;
+    filter: drop-shadow(0px 62px 54px rgba(0, 0, 0, 0.3));
+}
+
+.lorong img{
+    border-radius: 57px 57px 57px 57px;
+    display: block;
+    margin-left: 15%;
+    transition: 700ms;
+
+}
+
+.lorong img:hover{
+    transform: scale(103%)
+}
+
+.harga h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 500%;
+    margin-bottom: 30px;
+}
+
+.fasil p {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hitam {
+    height: 100px;
+    background-color: black;
 }
