@@ -1,6 +1,6 @@
-# Griya 99 Landing Page
-
 ![Thumbnail](images/thumbnail.png)
+
+# Griya 99 Landing Page
 
 A landing page for Griya 99, a male-only boarding house (kost) located in Bandung, Indonesia.
 
