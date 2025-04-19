@@ -1,84 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Griya 99 Kost Putra di Dago Bandung, dekat dengan ITB, Unpad, dan kampus lainnya. Fasilitas lengkap dengan harga terjangkau.">
+    <meta name="keywords" content="kost putra, kost bandung, kost dago, kost dekat ITB, kost mahasiswa">
+    <meta name="author" content="Griya 99">
+    <meta property="og:title" content="Griya 99 Kost Putra Bandung">
+    <meta property="og:description" content="Kost putra dengan lokasi strategis di Dago Bandung, dekat dengan kampus populer.">
+    <meta property="og:image" content="assets/images/depan2.jpg">
+    <meta property="og:url" content="https://faristf.github.io/Griya-99-Landing-Page/">
+    <meta name="theme-color" content="#ff7f00">
+    
     <title>Griya 99 Kost Putra Bandung</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="satu">
-            <div class="navbar">
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <nav class="navbar">
                 <div class="logo">
                     GRIYA 99
                 </div>
-
-                <ul class="navitems">
-                    <li>
-                        <a href="#">telegram</a>
+                
+                <!-- Mobile hamburger menu -->
+                <div class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="https://t.me/your-username" class="nav-link" target="_blank" rel="noopener noreferrer">telegram</a>
                     </li>
-                    <li>
-                        <a href="#">line</a>
+                    <li class="nav-item">
+                        <a href="https://line.me/ti/p/~your-id" class="nav-link" target="_blank" rel="noopener noreferrer">line</a>
                     </li>
-                    <li>
-                        <a href="#">whatsapp</a>
+                    <li class="nav-item">
+                        <a href="https://wa.me/yourphonenumber" class="nav-link" target="_blank" rel="noopener noreferrer">whatsapp</a>
                     </li>
-                    <li>
-                        <a class="cekidot" href="#"><img src="images/cekidot.svg" alt="cekidot"></a>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link btn-cekidot">
+                            <img src="assets/icons/cekidot.svg" alt="Cekidot">
+                        </a>
                     </li>
                 </ul>
-            </div>
-
-            <div class="mengkost">
-                <h1>
-                    Kost Putra Dago Dekat ITB
-                </h1>
-                <p>
+            </nav>
+            
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Kost Putra Dago Dekat ITB</h1>
+                <p class="hero-desc">
                     Griya 99 Kost khusus Putra yang berlokasi di Dago Bandung, dilingkungan yang sejuk, tenang dan nyaman.
                 </p>
             </div>
         </div>
-    </div>
-
-    <div class="mengmap">
-        <div class="gambar">
-            <img src="images/map.jpg" alt="map">
-        </div>
-        <div class="huehue">
-            <h1>Lokasi strategis</h1>
-            <p>Lokasi nya strategis dekat ke kampus ITB, Unpad, Poltekessos, Polman, Unikom. Tidak terlalu jauh dari stasiun KA dan bandara Husen. Dan mudah diakses dengan transportasi umum dan ojol.</p>
-            <a class="cekmaps" href="https://www.google.com/maps/place/GRIYA+99/@-6.8734,107.6162247,16.5z/data=!4m5!3m4!1s0x2e68e6e3a3e70f53:0x470401357fef71e3!8m2!3d-6.8739497!4d107.6172939"><img src="images/cekmaps.svg" alt="cekmaps"></a>
-        </div>
-
-    </div>
-
-    <div class="mengharga">
-        <div class="harga">
-            <h1>Rp1.200.000,00</h1>
-            <div class="fasil">
-                <p>Kamar tidur yang dilengkapi dengan bed, lemari baju, kursi dan meja belajar.
-    
-                    - Kamar mandi di dalam dengan shower, kloset duduk, Beberapa kamar dilengkapi water heater
-                    
-                    - Token listrik tiap kamar
-                    
-                    - Free wifi
-                    
-                    - Free air minum</p>
-            </div>
-        </div>
-        <div class="lorong">
-            <img src="images/lorong.jpeg" alt="hehe">
-        </div>
-    </div>
-
-    <div class="hitam">
         
-    </div>
-    
+        <!-- Custom scroll arrow -->
+        <a href="#map-section" class="scroll-arrow" aria-label="Scroll to view map"></a>
+    </header>
+
+    <main>
+        <!-- Map Section -->
+        <section class="map-section" id="map-section">
+            <div class="container flex justify-between items-center md:flex-col">
+                <div class="map-image hover-lift">
+                    <img src="assets/images/map.jpg" alt="Peta lokasi Griya 99">
+                </div>
+                <div class="map-content">
+                    <h2 class="map-title">Lokasi Strategis</h2>
+                    <p class="map-desc">
+                        Lokasi strategis dekat kampus ITB, Unpad, Poltekessos, Polman, dan Unikom. Tidak terlalu jauh dari stasiun KA dan bandara Husen, serta mudah diakses dengan transportasi umum dan ojek online.
+                    </p>
+                    <a href="https://www.google.com/maps/place/GRIYA+99/@-6.8734,107.6162247,16.5z/data=!4m5!3m4!1s0x2e68e6e3a3e70f53:0x470401357fef71e3!8m2!3d-6.8739497!4d107.6172939" 
+                       class="btn-cekmaps" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-section" id="contact">
+            <div class="container flex justify-around items-center md:flex-col">
+                <div class="pricing-content">
+                    <h2 class="pricing-title">Rp1.200.000,00</h2>
+                    <div class="facilities">
+                        <p>Kamar tidur yang dilengkapi dengan bed, lemari baju, kursi dan meja belajar.</p>
+                        <ul>
+                            <li>Kamar mandi di dalam dengan shower, kloset duduk, beberapa kamar dilengkapi water heater</li>
+                            <li>Token listrik tiap kamar</li>
+                            <li>Free wifi</li>
+                            <li>Free air minum</li>
+                        </ul>
+                    </div>
+                    <div class="text-center mt-8">
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20tertarik%20dengan%20kost%20Griya%2099" class="btn btn-secondary mt-6" target="_blank" rel="noopener noreferrer">
+                            Hubungi Sekarang
+                        </a>
+                    </div>
+                </div>
+                <div class="pricing-image hover-lift">
+                    <img src="assets/images/lorong.jpeg" alt="Lorong Griya 99">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="footer-text">&copy;2025 Griya 99 Kost Putra Bandung. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
