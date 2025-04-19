@@ -1,4 +1,4 @@
-![Thumbnail](images/thumbnail.png)
+![Thumbnail](images/thumbnail.jpg)
 
 # Griya 99 Landing Page
 
